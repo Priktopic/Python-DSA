@@ -30,3 +30,31 @@ add_records(calls)
 
 total_rec = len(mob_nums)
 print("There are", total_rec, "different telephone numbers in the records.")
+
+"""
+Similar thing is possible with dictionary instead of set
+
+mob_nums={} # assign an empty dict
+
+def add_num_to_dict(num):
+    """
+    # This function checks for duplicacy. If the record is already present in the dictionary "mob_nums", 
+    # then the counter which is the value will get added by 1 else will remain as 1
+    """
+    if num in mob_nums.keys(): 
+        mob_nums[num] += 1
+    else:
+        mob_nums[num] = 1
+
+def add_records(rows):
+    """
+    # This function adds all the unique values in mob_nums
+    """
+    for row in rows:
+        add_num_to_dict(row[0])
+        add_num_to_dict(row[1])
+
+add_records(texts)
+add_records(calls)
+
+"""
