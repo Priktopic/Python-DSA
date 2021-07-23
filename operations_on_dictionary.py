@@ -1,3 +1,8 @@
+"""
+In a nested dictionary, find which books and in which semester is taught by a teacher in a college. Here books are 'name', semester is 'spring2020',etc, 
+subjects are 'cs101','cs373',etc.
+"""
+
 courses = {
     'spring2020': { 'cs101': {'name': 'Building a Search Engine',
                            'teacher': 'Dave',
