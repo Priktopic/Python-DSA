@@ -47,11 +47,10 @@ def add_num_to_dict(num):
         mob_nums[num] = 1
 
 def add_records(rows):
-    """
-    # This function adds all the unique values in mob_nums
-    """
     for row in rows:
-        add_num_to_dict(row[0])
+    """
+        # Iterate through all the rows of "texts" and "calls" and append them in the new set "mob_nums". 
+    """ add_num_to_dict(row[0])
         add_num_to_dict(row[1])
 
 add_records(texts)
