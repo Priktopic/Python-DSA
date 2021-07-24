@@ -12,6 +12,6 @@ Various Algorithms using various Data Structures in Python to solve problems.
   - This folder has two csv files - calls.csv and texts.csv which have been used in the 5 different tasks mentioned here
   - [Find out first text record or last call record](https://github.com/Priktopic/python-dsa/tree/main/tasks)
   - [Unique telephone records](https://github.com/Priktopic/python-dsa/blob/main/tasks/task1_different_unique_mob_numbers.py)
-  - [
+  - [Telephone number that spent the longest duration on phone](https://github.com/Priktopic/python-dsa/blob/main/tasks/task2_longst_dur_call.py)
   - [Calls made and received in Bangalore](https://github.com/Priktopic/python-dsa/blob/main/tasks/task3_various_calls_made_to_and_from_BLR.py)
-  - []
+  - [Telemarketers calls](https://github.com/Priktopic/python-dsa/blob/main/tasks/task4_telemarketing_calls.py)
