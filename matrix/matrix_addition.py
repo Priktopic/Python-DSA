@@ -31,3 +31,9 @@ for i in range(p):
         In 5th iteration -> i=1, j=1 -> matrix[1][1] + matrix2[1][1]
         If more values of j are present, it will iterate again, else it will end the control flow.
         """
+# Output        
+print("Result is:")
+for i in range(p):
+    for j in range(q):
+        print(format(matrix1[i][j],"<3"), end="")
+    print()
