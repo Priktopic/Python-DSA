@@ -15,3 +15,19 @@ for i in range(len_num_list):
 items = iter(lst)
 newdct = dict(zip(items, items))
 print(newdct)
+
+#OR
+
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
+
+newdct = {}
+idxlst = []
+numlst = []
+
+for idx, num in enumerate(num_list):
+    if num % 2 != 0:
+        numlst.append(num)
+        idxlst.append(idx)
+
+newdct = dict(zip(numlst, idxlst))
+print(newdct)
